@@ -1,0 +1,88 @@
+html,
+body {
+	height: 100%;
+}
+
+body.my-login-page {
+	background-color: #333; /* change background color to dark grey */
+	font-size: 14px;
+	color: #fff; /* change font color to white */
+}
+
+.my-login-page .brand {
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 40px auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+	position: relative;
+	z-index: 1;
+}
+
+.my-login-page .brand img {
+	width: 100%;
+}
+
+.my-login-page .card-wrapper {
+	width: 400px;
+}
+
+.my-login-page .card {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+	background-color: #444; /* change card background color to dark grey */
+	color: #fff; /* change card font color to white */
+}
+
+.my-login-page .card.fat {
+	padding: 10px;
+}
+
+.my-login-page .card .card-title {
+	margin-bottom: 30px;
+}
+
+.my-login-page .form-control {
+	border-width: 2.3px;
+	background-color: #555; /* change input background color to dark grey */
+	color: #fff; /* change input font color to white */
+}
+
+.my-login-page .form-group label {
+	width: 100%;
+}
+
+.my-login-page .btn.btn-block {
+	padding: 12px 10px;
+	background-color: #007bff; /* change button background color to blue */
+	border-color: #007bff;
+}
+
+.my-login-page .btn.btn-block:hover {
+	background-color: #0062cc; /* change button hover background color to dark blue */
+	border-color: #005cbf;
+}
+
+.my-login-page .footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.my-login-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.my-login-page .card.fat {
+		padding: 0;
+	}
+
+	.my-login-page .card.fat .card-body {
+		padding: 15px;
+	}
+}
