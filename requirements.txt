@@ -1,0 +1,12 @@
+flask
+pyaiml21
+py2neo
+nltk
+glob
+gingerit
+pytholog
+sklearn
+os
+joblib
+pandas
+werkzeug.security
