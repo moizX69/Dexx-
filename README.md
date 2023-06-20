@@ -15,16 +15,16 @@ Some well-known examples of chatbots include Replika, Watson Assistant, Alexa, D
 
 Here you will need following files:
 
-main.py in pythonfiles
+main.py in pythonfiles: 
 code for running the app
 
-data folder 
+data folder: 
 Data folder contains all the AIML files Each aiml file contains the conversation patterns which the kernel will load for chatting 
 
-Website folder
+Website folder:
 Contains the html css and flask files
 
-Pythonfiles folder
+Pythonfiles folder:
 Contains the python files for machine Learning,nlp,prolog
 
 
