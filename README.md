@@ -13,7 +13,7 @@ AIML (Artificial Intelligence Markup Language) is an XML-based language used for
 
 Some well-known examples of chatbots include Replika, Watson Assistant, Alexa, Dialogflow, and Cleverbot. If you're interested in building your own chatbot, AIML can be a useful tool.We will be using AIML with NLP/ML/Machine Learning to build a chatbot.
 
-Here you will need following files:
+Here you will need following files and folders:
 
 main.py in pythonfiles: 
 code for running the app
