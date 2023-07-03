@@ -15,7 +15,7 @@ Some well-known examples of chatbots include Replika, Watson Assistant, Alexa, D
 
 Here you will need following files and folders:
 
-main.py in pythonfiles: 
+main.py: 
 code for running the app
 
 data folder: 
